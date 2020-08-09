@@ -174,11 +174,11 @@ textarea {
    }
 
    #kitty {
-     border-radius: 5px;
      border: 8px solid #222;
+     border-radius: 2.5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
      margin: 0 auto;
-     -webkit-border-radius: 100px;
-     -moz-border-radius: 100px;
    }
 
    #wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
@@ -189,8 +189,11 @@ textarea {
 
    #partyTimeButton {
      background-color: #222;
-     border: none;
-     border-radius: 5px;
+     border: 2.5px solid inherit;
+     border-radius: 2.5px;
+     box-shadow: 5px 5px 5px 0 rgba(34,34,34,0.5);
+     -webkit-box-shadow: 5px 5px 5px 0px rgba(34,34,34,0.5);
+     -moz-box-shadow: 5px 5px 5px 0px rgba(34,34,34,0.5);
      color: #fff;
      font: 1.25em "Mansalva", cursive;
      margin: 20px 0 100px 0;
