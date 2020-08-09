@@ -1,0 +1,153 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>KITTY CLOCK</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Domine&family=Mansalva&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="script" type ="text/javascript" href ="js/script.js">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <h1>KITTY CLOCK</h1>
+    </header>
+
+    <h2>
+      I CAN HAZ TIME?? <br>
+      <span id="clock">Clock goes here</span>
+    </h2>
+
+    <figure>
+      <img id="kitty" src="img/kittens-01.jpg" alt="Azura & Domino Baier">
+    </figure>
+
+    <blockquote id="timeEvent">This is where time events are reported</blockquote>
+
+    <section class="time-selector">
+      <h3>Set wake-up time:</h3>
+      <select id="wakeUpTimeSelector">
+        <option value="1">1 AM - 2 AM</option>
+        <option value="2">2 AM - 3 AM</option>
+        <option value="3">3 AM - 4 AM</option>
+        <option value="4">4 AM - 5 AM</option>
+        <option value="5">5 AM - 6 AM</option>
+        <option value="6">6 AM - 7 AM</option>
+        <option value="7" selected>7 AM - 8 AM</option>
+        <option value="8">8 AM - 9 AM</option>
+        <option value="9">9 AM - 10 AM</option>
+        <option value="10">10 AM - 11 AM</option>
+        <option value="11">11 AM - 12 PM</option>
+        <option value="12">12 PM - 1 PM</option>
+        <option value="13">1 PM - 2 PM</option>
+        <option value="14">2 PM - 3 PM</option>
+        <option value="15">3 PM - 4 PM</option>
+        <option value="16">4 PM - 5 PM</option>
+        <option value="17">5 PM - 6 PM</option>
+        <option value="18">6 PM - 7 PM</option>
+        <option value="19">7 PM - 8 PM</option>
+        <option value="20">8 PM - 9 PM</option>
+        <option value="21">9 PM - 10 PM</option>
+        <option value="22">10 PM - 11 PM</option>
+        <option value="23">11 PM - 12 AM</option>
+        <option value="24">12 AM - 1 AM</option>
+      </select>
+    </section>
+    <section class = "time-selector">
+      <h3>Set lunch time:</h3>
+        <select id="lunchTimeSelector">
+          <option value="1">1 AM - 2 AM</option>
+          <option value="2">2 AM - 3 AM</option>
+          <option value="3">3 AM - 4 AM</option>
+          <option value="4">4 AM - 5 AM</option>
+          <option value="5">5 AM - 6 AM</option>
+          <option value="6">6 AM - 7 AM</option>
+          <option value="7">7 AM - 8 AM</option>
+          <option value="8">8 AM - 9 AM</option>
+          <option value="9">9 AM - 10 AM</option>
+          <option value="10">10 AM - 11 AM</option>
+          <option value="11" selected>11 AM - 12 PM</option>
+          <option value="12">12 PM - 1 PM</option>
+          <option value="13">1 PM - 2 PM</option>
+          <option value="14">2 PM - 3 PM</option>
+          <option value="15">3 PM - 4 PM</option>
+          <option value="16">4 PM - 5 PM</option>
+          <option value="17">5 PM - 6 PM</option>
+          <option value="18">6 PM - 7 PM</option>
+          <option value="19">7 PM - 8 PM</option>
+          <option value="20">8 PM - 9 PM</option>
+          <option value="21">9 PM - 10 PM</option>
+          <option value="22">10 PM - 11 PM</option>
+          <option value="23">11 PM - 12 AM</option>
+          <option value="24">12 AM - 1 AM</option>
+        </select>
+    </section>
+    <section class = "time-selector">
+      <h3>Set nap time:</h3>
+      <select id="napTimeSelector">
+        <option value="1">1 AM - 2 AM</option>
+        <option value="2">2 AM - 3 AM</option>
+        <option value="3">3 AM - 4 AM</option>
+        <option value="4">4 AM - 5 AM</option>
+        <option value="5">5 AM - 6 AM</option>
+        <option value="6">6 AM - 7 AM</option>
+        <option value="7">7 AM - 8 AM</option>
+        <option value="8">8 AM - 9 AM</option>
+        <option value="9">9 AM - 10 AM</option>
+        <option value="10">10 AM - 11 AM</option>
+        <option value="11">11 AM - 12 PM</option>
+        <option value="12">12 PM - 1 PM</option>
+        <option value="13" selected>1 PM - 2 PM</option>
+        <option value="14">2 PM - 3 PM</option>
+        <option value="15">3 PM - 4 PM</option>
+        <option value="16">4 PM - 5 PM</option>
+        <option value="17">5 PM - 6 PM</option>
+        <option value="18">6 PM - 7 PM</option>
+        <option value="19">7 PM - 8 PM</option>
+        <option value="20">8 PM - 9 PM</option>
+        <option value="21">9 PM - 10 PM</option>
+        <option value="22">10 PM - 11 PM</option>
+        <option value="23">11 PM - 12 AM</option>
+        <option value="24">12 AM - 1 AM</option>
+        </select>
+    </section>
+
+    <button id="partyTimeButton">Party Time!</button>
+
+    <footer>
+      <p>&copy;2020 Leslie Jade Baier</p>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
